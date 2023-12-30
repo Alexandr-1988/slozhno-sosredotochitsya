@@ -5,8 +5,20 @@
 */
 
 .page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+    --hover-border-color: rgba(50, 49, 45, 0.40);
+    --menu-text-color: #353430;
+    --title-color: #353430;
+    --bg-color: #FFF1F7;
+    --main-color: #FF8DCB;
+    --header-text: #353430;
+    --title-color: #FFC2E6;
+    --h2-title-color: #353430;
+    --h3-title-color: #353430;
+    --accent-color: #FF0070;
+    --text-color: #353430;
+    --main-font: 'IBM Plex Mono';
+    --font-size: 18px;
+    --font-size-big: 157px;
+    --main-padding: 20px;
+    --bg-image: url("../images/cover-image-light.png");
 }
