@@ -12,13 +12,17 @@
   --main-color: #ff8dcb;
   --header-text: #353430;
   --title-color: #ffc2e6;
-  --h2-title-color: #353430;
-  --h3-title-color: #353430;
+  --main-title-color: #353430;
+  --subtitle-color: #353430;
   --accent-color: #ff0070;
   --text-color: #353430;
-  --main-font: "IBM Plex Mono";
+  --main-font: "IBM Plex Mono", Monospace;
   --font-size: 18px;
   --font-size-big: 157px;
   --main-padding: 20px;
   --bg-image: url("../images/cover-image-light.png");
+}
+
+.theme_light .rec {
+  display: none;
 }
