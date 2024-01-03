@@ -125,7 +125,8 @@ button:focus {
   background-color: var(--main-color);
 }
 
-h4.title-decor {
+h5.title-decor {
+  font-size: var(--font-size);
   color: var(--subtitle-color);
   font-weight: 400;
 }
@@ -153,7 +154,7 @@ h4.title-decor {
   right: -15px;
   border-radius: 50%;
   background-color: var(--accent-color);
-  box-shadow: 0px 0px 4px var(--accent-color);
+  box-shadow: 0 0 4px 2px var(--accent-color);
 }
 
 .grid-container-section {
@@ -255,14 +256,13 @@ img {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   min-height: 668px;
   height: 100vh;
 }
 
 .footer_title {
-  margin-top: 30.5%;
   align-self: center;
   text-align: center;
 }
@@ -311,7 +311,6 @@ img {
   }
 
   .footer_title {
-    margin-top: 61%;
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 }
@@ -382,7 +381,6 @@ img {
   }
 
   .footer_title {
-    margin-top: 78%;
     font-size: 116px;
   }
 
