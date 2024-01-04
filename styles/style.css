@@ -125,7 +125,7 @@ button:focus {
   background-color: var(--main-color);
 }
 
-h5.title-decor {
+h4.title-decor {
   font-size: var(--font-size);
   color: var(--subtitle-color);
   font-weight: 400;
